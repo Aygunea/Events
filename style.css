@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button,input{
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 5px 20px;
+}
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 40px;
+    margin-top: 20px;
+}
+.form{
+    display: flex;
+    padding: 80px;
+    flex-direction: column;
+}
+h1{
+    margin-bottom: 20px;
+}
+form{
+    width: max-content;
+}
